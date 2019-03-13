@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Header </h2>
+<p>PARAGRAPH.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="c" name="c" value="150">
+  200 +
+  <input type="number" id="d" name="d" value="150">
+  =
+  <output name="x" for="c d"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+</body>
